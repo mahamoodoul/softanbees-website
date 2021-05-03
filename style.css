@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.text-clor{
+color: aqua;
+}
+
+.top-header{
+    color: white;
+    background-color: turquoise;
+    height: 500px;
+    margin-top: 20px;
+
+}
+ .header-content{
+    margin-top: 100px;
+
+}
+.video-part-content{
+    text-align: center;
+}
+
+
+.business{
+    height: 400px;
+    background-color:whitesmoke;
+    margin-top: 20px;
+}
+
+.business-content{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+
+@media screen  and (max-width: 768px) {
+    /* For desktop: */
+    .top-header{
+        height: 700px;
+    }
+    
+}
+.benifits{
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
