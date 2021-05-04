@@ -1,52 +1,843 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+html,
 body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-  }
-.text-clor{
-color: aqua;
+  max-width: 100%;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
-.top-header{
+.comapny-name {
+  font-weight: 700;
+  color: turquoise !important;
+  font-size: medium;
+}
+
+.sign-in-decoration {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.sign-in-decoration:hover {
+  color: turquoise;
+}
+
+.navbar-button-size {
+  color: black;
+  font-weight: 500;
+}
+
+.text-clor {
+  color: aqua;
+}
+
+.navbar-positon {
+  padding-left: 150px !important;
+  padding-right: 350px !important;
+}
+
+.button-style {
+  color: white;
+  background-color: turquoise;
+  border-radius: 5px;
+  border: 5px solid whitesmoke;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  min-height: 32px;
+  height: auto;
+  min-width: 90px;
+  padding: 4px 14px;
+  /* top right bottom left */
+  padding-bottom: 4.5px;
+  padding-top: 3.5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button-style:hover {
+  color: black;
+  background-color: white;
+}
+
+.top-header {
+  color: white;
+  background-color: turquoise;
+  height: 400px;
+  margin-top: 40px;
+}
+.header-content {
+  margin-top: 100px;
+}
+
+.video-part-content {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+.icon-style {
+  margin-top: 15px !important;
+  padding-top: 15px !important;
+  font-size: 20px !important;
+}
+
+.adventage-info-1 {
+  padding-top: 70px !important;
+  padding-left: 250px !important;
+  background-color: whitesmoke;
+  height: 350px;
+  background-image: url("asset/bg3.PNG");
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 50mm; /* Resize the background image to cover the entire container */
+}
+
+.adventage-paragraph {
+  width: 350px;
+}
+.adventage-info {
+  padding-top: 70px;
+  padding-left: 60px !important;
+  padding-right: 250px !important;
+  background-color: #d4d5d7;
+  height: 350px;
+  background-image: url("asset/bg4.PNG");
+  background-position: 75% center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 50mm; /* Resize the background image to cover the entire container */
+}
+
+.adventage-btn {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  min-height: 32px;
+  height: auto;
+  min-width: 90px;
+  padding: 4px 14px;
+  /* top right bottom left */
+  padding-bottom: 4.5px;
+  padding-top: 3.5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.adventage-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.recomonded {
+  background-color: white;
+  padding-top: 0.5px;
+  height: 700px;
+}
+
+.recomonded-card {
+  text-align: left;
+}
+
+.recomonded-card small {
+  position: absolute;
+  bottom: 10px;
+}
+
+.recomonded-card a {
+  margin-top: 200px !important;
+  text-decoration: none !important;
+  position: absolute;
+  bottom: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid turquoise;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  min-height: 32px;
+  height: auto;
+  min-width: 90px;
+  padding: 4px 14px;
+  /* top right bottom left */
+  padding-bottom: 4.5px;
+  padding-top: 3.5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.recomonded-card a:hover {
+  color: black;
+  background-color: turquoise;
+}
+
+.customer-history {
+  background-color: aliceblue;
+  padding-top: 0.5px;
+  height: 700px;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+.view-customer {
+  margin-top: 35px;
+}
+
+
+
+.business {
+  height: 400px;
+  background-color: whitesmoke;
+  margin-top: 0px;
+}
+
+.business-content {
+  padding-left: 200px;
+  padding-top: 40px;
+}
+
+
+.business-btn {
+  font-weight: 500;
+  margin-left: 0px;
+  padding-left: 0px;
+  /* color: black; */
+  background-color: turquoise;
+  border-radius: 5px;
+  border: 5px solid whitesmoke;
+  border: none;
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 16px;
+  min-height: 32px;
+  height: auto;
+  min-width: 90px;
+  padding: 4px 14px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.benifits {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 1500px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 450px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
     color: white;
     background-color: turquoise;
-    height: 500px;
-    margin-top: 20px;
-
-}
- .header-content{
-    margin-top: 100px;
-
-}
-.video-part-content{
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
     text-align: center;
-}
-
-
-.business{
-    height: 400px;
-    background-color:whitesmoke;
-    margin-top: 20px;
-}
-
-.business-content{
-    padding-left: 40px;
-    padding-top: 40px;
-}
-
-
-
-@media screen  and (max-width: 768px) {
-    /* For desktop: */
-    .top-header{
-        height: 700px;
-    }
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    height: 350px;
+    margin-top: 0px !important;
+    background-position: 75% center !important;
+  }
+  .adventage-info-1 {
+    margin-top: 0px !important;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
     
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  
+  .business-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
 }
-.benifits{
-    background-image: url("");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 450px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    height: 350px;
+    margin-top: 0px !important;
+    background-position:right !important;
+  }
+  .adventage-info-1 {
+    margin-top: 0px !important;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  
+  .business-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
 }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 900px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 450px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+
+
+
+
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    background-color: whitesmoke;
+    background-image: none;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  
+  .business-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 700px and up) */
+@media only screen and (max-width: 700px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 700px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    background-color: whitesmoke;
+    background-image: none;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  
+  .business-content {
+    padding-left: 2px;
+    padding-top: 20px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 700px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    background-color: whitesmoke;
+    background-image: none;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  
+  .business-content {
+    padding-left: 2px;
+    padding-top: 20px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 320px) {
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .top-header {
+    height: 700px !important;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .top-header {
+    height: 700px;
+    padding-left: 20px;
+    padding-bottom: 50px !important;
+  }
+
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+  }
+  .adventage-paragraph {
+    width: 270px;
+  }
+  .adventage-info {
+    background-color: whitesmoke;
+    background-image: none;
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .adventage-info-1 {
+    background-color: whitesmoke;
+    background-image: none;
+    margin-top: 0px !important;
+    padding-top: 50px !important;
+    padding-left: 30px !important;
+  }
+
+  .adventage-btn {
+    
+   width: 200px;
+  
+  }
+  .container {
+    padding-left: 0px !important; 
+    margin-left: 0px !important;
+  }
+  .business-content {
+    padding-left: 2px;
+    padding-top: 20px;
+  }
+  .business-bg-image{
+    /* padding-left: 90px !important; */
+    width: 90%;
+    margin-left: 78px !important;
+    margin-right: 0px !important;
+    margin-bottom: 10px !important;
+
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+  .card{
+    margin-left: 0px !important;
+  }
+
+}
+

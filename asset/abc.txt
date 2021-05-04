@@ -1,0 +1,124 @@
+@media screen and (max-width: 768px) {
+  /* For desktop: */
+  .top-header {
+    height: 700px;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+  .adventage-info-1 {
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+  }
+  .adventage-info {
+    padding-top: 70px;
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+    background-color: #d4d5d7;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .top-header {
+    height: 700px;
+  }
+  .navbar-positon {
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+  }
+  .sign-in-decoration {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-left: 0px;
+    color: white;
+    background-color: turquoise;
+    border-radius: 5px;
+    border: 5px solid whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 16px;
+    min-height: 32px;
+    height: auto;
+    min-width: 90px;
+    padding: 4px 14px;
+    text-align: center;
+  }
+  .sign-in-decoration:hover {
+    color: black;
+    background-color: white;
+  }
+
+  .adventage-info-1 {
+    padding-top: 70px !important;
+    padding-left: 30px !important;
+    background-color: whitesmoke;
+    height: 350px;
+  }
+  .adventage-info {
+    padding-top: 70px;
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+    background-color: #d4d5d7;
+    height: 350px;
+    margin-top: 0px !important;
+  }
+  .customer-history {
+    height: auto;
+  }
+  .view-customer {
+    padding-bottom: 15px;
+  }
+  .recomonded {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .business {
+    height: auto;
+    margin-top: 0px;
+  }
+}
